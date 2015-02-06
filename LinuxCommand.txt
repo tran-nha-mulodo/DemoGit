@@ -1,0 +1,40 @@
+Linux's command:
+ls : show all file and directory
+	-R : list file in sub-directory
+	-a : list hidden file
+	-la: list files and directories with detail info
+cd : change directory for execute
+mkdir : make new directory
+	dirname : create new directory
+	<path/dirname> : create new directory at the specified path
+rmdir : delete/remove directoty
+cat : create new file 
+	> filename : create new file
+	filename : display content file
+	file1 file2 > file3 : joins 2 file (file1 + file2) and stores a new file (file3)
+rm : delete/remove file
+mv : move file or directory / change name file or directory
+	filename/dirname "new file/dir path" : move file/directory
+	filename/dirname newname : rename file or directory
+sudo : super user
+history : show past task work that you did linux command
+clear : clear screen
+man <command> : information on a command
+chmod : change mode file permission
+	<numberic([User][Group][All])> filename : base on rule number change mode file permission for User , Group , All
+		number mode :
+			0 : no permission 		---
+			1 : execute 			--x
+			2 : write 			-w-
+			3 : Exevute and write 		-wx
+			4 : Read 			r--
+			5 : Read + execute 		r-x
+			6 : Read + write 		rw-
+			7 : Read, write & execute 	rwx
+	<Symbolic> filename : base on character change mode for User , Group , All
+		Symbolic mode :
+			+ : Add a permission
+			- : Remove permission
+			= : set permission
+shutdown : turn off system
+	-h mintunenumber : set time for turn off
